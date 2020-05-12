@@ -1,12 +1,12 @@
-package com.example.searchmovies.domain.dto
+package com.example.searchmovies.view
 
-data class Movie(
-    val title: String,
-    val releaseDate: String,
+data class TheBestMovieViewEntity(
     val popularity: Double,
     val voteAverage: Double,
     val voteCount: Int,
     val adult: Boolean,
+    val title: String,
     val overview: String,
+    val releaseDate: String,
     val posterPath: String
 )
