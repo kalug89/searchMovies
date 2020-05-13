@@ -1,5 +1,6 @@
 package com.example.searchmovies.model.network
 
+import com.example.searchmovies.model.dto.ApiMovies
 import com.example.searchmovies.model.dto.Results
 import io.reactivex.Single
 import retrofit2.http.GET

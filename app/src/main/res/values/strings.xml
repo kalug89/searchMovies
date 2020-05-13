@@ -1,7 +1,3 @@
 <resources>
-    <string name="app_name">SearchMovies</string>
-
-    <string name="hint_text">Write movie</string>
-    <string name="button_text">Search</string>
-    <string name="description_poster">Poster image</string>
+  <string name="app_name">SearchMovies</string>
 </resources>
