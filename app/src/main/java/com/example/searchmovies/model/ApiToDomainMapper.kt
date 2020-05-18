@@ -6,6 +6,12 @@ import com.example.searchmovies.model.dto.ApiMovies
 fun ApiMovies.toDomain(): Movie {
     return Movie(
         title,
-        releaseDate
+        releaseDate,
+        popularity,
+        voteAverage,
+        voteCount,
+        adult,
+        overview,
+        posterPath
     )
 }
